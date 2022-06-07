@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7e8d4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    width: 50px;
+    margin-right: 7px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #d20f77 21%, #10a9d7d9 88%);
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control{
+    padding: 20px;
+}
+
+.container-sm{
+    max-width: 450px;
+}
+
+.box{
+    max-width: 100%;
+    width: 450px;
+    align-content: center;
+    align-items: center;
+    place-items: center;
+    place-content: center;
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 3px;
+    height: 30px;
+    border-color: rgb(171, 77, 111);
+    border-top-color: rgb(168, 93, 118);
+    background-color: rgb(215, 250, 246);
+    padding-left: .5em;
+    font-weight: 500;
+    font-size: larger;
+    font-weight: bolder;
+    color: #e62a2a;
+    filter: brightness(120%);
+   filter: contrast(120%);
+}
+
+.main{
+    height: auto;
+}
+
+#parent{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+}
+
+.grp{
+    display: flex;
+    align-items: center;
+}
+
+#bts{
+    height: 30px;
+    width: 30px;
+}
+
+#btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ipbox{
+    width: 520px;
+    border-radius: 4px;
+    margin-right: 4px;
+    color: black;
+}
+
+.completed{
+    text-decoration: line-through;
+    text-decoration-color: rgb(4, 246, 12);
+    text-decoration-thickness: 8px;
+}
+
+@media (max-width:582px){
+    .box{
+        width: 350px;
+        font-size: medium;
+    }
+    #logo{
+        width: 45px;
+    }
+    .header{
+        font-size: medium;
+    }
+    #bts{
+        height: 20px;
+        width: 20px;
+    }
+    .ipbox{
+        width: 85%;
+    }
+}
+
+
+@media (max-width:440px){
+    .box{
+        width: 270px;
+    }
+    .grp{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #logo{
+        width: 40px;
+    }
+    .header{
+        font-size: small;
+    }
+    .ipbox{
+        width: 80%;
+    }
+}
